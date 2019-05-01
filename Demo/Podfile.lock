@@ -1,25 +1,31 @@
 PODS:
-  - Nimble (7.0.2)
-  - Quick (1.2.0)
-  - RxSwift (4.0.0)
-  - RxViewModel (5.1.0):
-    - RxSwift (~> 4.0)
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
+  - RxSwift (5.0.0)
+  - RxViewModel (6.0.0):
+    - RxSwift (>= 5.0.0)
 
 DEPENDENCIES:
   - Nimble
   - Quick
   - RxViewModel (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+    - RxSwift
+
 EXTERNAL SOURCES:
   RxViewModel:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
-  RxViewModel: 4fda1b24076c00dee8993015e12bce17091b8fb7
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  RxViewModel: f4c25376dbb15f04d7d909732b983673c614663f
 
 PODFILE CHECKSUM: f3dc2ef276e60482f87b2abfca65a634f6640961
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1
